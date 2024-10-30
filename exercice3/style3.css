@@ -1,0 +1,64 @@
+
+body{
+    background-color: white;
+}
+
+
+
+#conteneur{
+ display: grid;
+ grid-template-columns: repeat(4, 1fr);
+ grid-template-rows: repeat(9,75px);
+ background-color:aquamarine;
+ border-collapse: collapse;
+ border:  2px solid white;
+ 
+ margin-left: 250px;
+ margin-right: 250px;
+ grid-template-areas: 
+ 
+ "Header Header Header Header"
+ "Nav Nav Nav Nav"
+ "aside Main Main Main"
+ "aside Main Main Main"
+ "aside Main Main Main"
+ "aside Main Main Main"
+ "aside Main Main Main"
+ "aside Main Main Main"
+ "footer footer footer footer";
+}
+
+header{
+    grid-area: Header;
+    
+    font-size: 25px;
+}
+
+nav{
+    grid-area: Nav;
+    
+    font-size: 25px;
+}
+
+aside{
+    grid-area: aside;
+    
+    font-size: 25px;
+}
+
+
+footer{
+    grid-area: footer;
+    
+    font-size: 25px;
+    
+}
+
+main{
+    grid-area: Main;
+}
+
+.balise{
+    border-collapse: collapse;
+    border:  2px solid white;
+}

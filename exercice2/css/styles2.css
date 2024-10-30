@@ -1,0 +1,55 @@
+.puzzle{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap: 0;
+    max-width: 75%;
+    margin-left: 275px;
+    margin-right: 275px;
+    grid-template-areas: 
+    
+    "Pic1 Pic1 Pic2 Pic3"
+    "Pic4 Pic5 Pic5 Pic3"
+    "Pic6 Pic7 Pic8 Pic8"
+    "Pic6 Pic9 Pic9 Pic10";
+}
+
+#piece01{
+    grid-area: Pic1;
+}
+
+#piece02{
+    grid-area: Pic2;
+}
+
+#piece03{
+    grid-area: Pic3;
+}
+
+#piece04{
+    grid-area: Pic4;
+}
+
+#piece05{
+    grid-area: Pic5;
+}
+
+#piece06{
+    grid-area: Pic6;
+}
+
+#piece07{
+    grid-area: Pic7;
+}
+
+#piece08{
+    grid-area: Pic8;
+}
+
+#piece09{
+    grid-area: Pic9;
+}
+
+#piece10{
+    grid-area: Pic10;
+}

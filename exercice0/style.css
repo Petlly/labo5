@@ -1,0 +1,232 @@
+#grid {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    text-align: center;
+    grid-template-areas:
+        "rose1 vert1 rose2"
+        "vert2 rose3 vert3"
+        "rose4 vert4 rose5";
+
+}
+
+#cellule1 {
+    background-color: pink;
+    grid-area: rose1;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule2 {
+    background-color: green;
+    grid-area: vert1;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule3 {
+    background-color: pink;
+    grid-area: rose2;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule4 {
+    background-color: green;
+    grid-area: vert2;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule5 {
+    background-color: pink;
+    grid-area: rose3;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule6 {
+    background-color: green;
+    grid-area: vert3;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule7 {
+    background-color: pink;
+    grid-area: rose4;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule8 {
+    background-color: green;
+    grid-area: vert4;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cellule9 {
+    background-color: pink;
+    grid-area: rose5;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#grid2 {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    text-align: center;
+    grid-template-areas:
+        "rose1 vert1 rose2"
+        "vert2 rose3 vert3"
+        "rose4 vert4 rose5";
+
+
+}
+
+#c1 {
+    background-color: pink;
+    grid-area: rose1;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c2 {
+    background-color: green;
+    grid-area: vert1;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c3 {
+    background-color: pink;
+    grid-area: rose2;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c4 {
+    background-color: green;
+    grid-area: vert2;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c5 {
+    background-color: pink;
+    grid-area: rose3;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c6 {
+    background-color: green;
+    grid-area: vert3;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c7 {
+    background-color: pink;
+    grid-area: rose4;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#c8 {
+    background-color: green;
+    grid-area: vert4;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+
+#c9 {
+    background-color: pink;
+    grid-area: rose5;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#grid3 {
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-gap: 2px;
+
+    text-align: center;
+    grid-template-areas:
+        "rose1 vert1 rose2"
+        "vert2 rose3 vert3"
+        "rose4 vert4 rose5";
+}
+
+#cel1 {
+    background-color: pink;
+    grid-area: rose1;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel2 {
+    background-color: green;
+    grid-area: vert1;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel3{
+    background-color: pink;
+    grid-area: rose2;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel4{
+    background-color: green;
+    grid-area: vert2;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel5{
+    background-color: pink;
+    grid-area: rose3;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel6{
+    background-color: green;
+    grid-area: vert3;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel7{
+    background-color: pink;
+    grid-area: rose4;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel8{
+    background-color: green;
+    grid-area: vert4;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+#cel9{
+    background-color: pink;
+    grid-area: rose5;
+    border: 1px solid black;
+    padding: 15px;
+}

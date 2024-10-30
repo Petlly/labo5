@@ -1,0 +1,85 @@
+.puzzle{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 0%;
+    width: 720px;
+    max-width: 100%;
+    margin: auto;
+    
+
+    grid-template-areas: 
+        "TopL TopM TopR"
+        "MidL MidM MidR"
+        "BotL BotM BotR";
+}
+
+
+
+
+#piece1{
+grid-area: MidR;
+width: 100%;
+height: auto;
+
+
+}
+
+#piece2{
+grid-area: BotL;
+width: 100%;
+height: auto;
+
+}
+
+#piece3{
+grid-area: MidM;
+width: 100%;
+height: auto;
+
+}
+
+#piece4{
+grid-area: BotM;
+width: 100%;
+height: auto;
+
+}
+
+#piece5{
+grid-area: TopR;
+width: 100%;
+height: auto;
+
+}
+
+#piece6{
+grid-area: TopL;
+width: 100%;
+height: auto;
+
+
+}
+
+#piece7{
+grid-area: BotR;
+width: 100%;
+height: auto;
+
+}
+
+#piece8{
+grid-area: TopM;
+width: 100%;
+height: auto;
+
+}
+
+#piece9{
+grid-area: MidL;
+width: 100%;
+height: auto;
+
+}
+
